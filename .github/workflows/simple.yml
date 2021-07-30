@@ -12,8 +12,3 @@ jobs:
         run: |
           node -v
           npm -v
-      - name: phyton Command
-        run: |
-          import platform
-          print(platform.processor())
-        shell: run
